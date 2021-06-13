@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+body{
+    background-image: linear-gradient(45deg,lightpink,lightblue);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+input{
+    color: black;
+    font-weight: bolder;
+    margin: 5% 0% 5% 25%;
+    width: 45%;
+    text-align: center ;
+    align-items: center;
+    border-radius: 15px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+    border-style: none;
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    background-color:darkcyan;
+    padding: 10px;
+    border-style: none;
+    margin: 0px;
+    margin-left:-10px ;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    font-weight: bold;
+}
+ul{
+    
+    padding: 10px;
+    width: 50%;
+    list-style: none;
+    color:darkgreen;
+    background-color:rgba(35, 37, 37, 0);
+    text-align: left;
+    border-radius: 15px;
+    border-top-left-radius:0px ;
+    margin: 0% 23.5%;
+
+}
+li{ width: 100%;
+    background-color:white;
+    color:black ;
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 0px 10px;
+    margin: 5px;
+    border-radius:15px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+li>:first-child{
+    flex-shrink: 1;
+}
+.removebtn{
+    background-color: crimson;
+    margin-left: auto;
+    justify-self: flex-end;
+}
+.check{
+    background-color: lightgreen;
+    border-radius: 15px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+    margin-right:0px;
+    justify-self: flex-end;
+
+}
+
+.underline{
+    text-decoration:line-through ;
+}
